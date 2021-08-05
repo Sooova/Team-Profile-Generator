@@ -12,10 +12,10 @@ populateMarkdown = function(name, type, id, email, employeeSpecific) {
         return `<div><h2>${name}</h2><h3>${type}</h3><ul><li>ID: ${id}</li><li><a href="mailto:${email}">${email}</a></li><li>Office Number: ${employeeSpecific}</li></div>`;
     }
     else if(type == 'Intern') {
-        return `<div><h2>${name}</h2><h3>${type}</h3><ul><li>ID: ${id}</li><li>Email: ${email}</li><li>School: ${employeeSpecific}</li></div>`;
+        return `<div><h2>${name}</h2><h3>${type}</h3><ul><li>ID: ${id}</li><li><a href="mailto:${email}">${email}</a></li><li>School: ${employeeSpecific}</li></div>`;
     }
     else if(type == 'Engineer') {
-        return `<div><h2>${name}</h2><h3>${type}</h3><ul><li>ID: ${id}</li><li>Email: ${email}</li><li>Github: ${employeeSpecific}</li></div>`;
+        return `<div><h2>${name}</h2><h3>${type}</h3><ul><li>ID: ${id}</li><li><a href="mailto:${email}">${email}</a></li><li>Github: ${employeeSpecific}</li></div>`;
     }
 }
 
