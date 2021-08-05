@@ -12,6 +12,8 @@ This node application, automatically generators a HTML page with details, inputt
 
 ## Installation 
 Please refer to the following video for installation instructions.
+https://streamable.com/bgvhpg
+You will need: Node, jest as well as inquirer.
 ## Usage 
 
 ## Contribution 
