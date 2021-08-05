@@ -1,0 +1,25 @@
+.divFlex {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    color:whitesmoke;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color:whitesmoke;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color:whitesmoke;
+}
+
+body {
+    background-color: rgb(136, 148, 199);
+}
+
